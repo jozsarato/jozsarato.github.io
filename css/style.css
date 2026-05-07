@@ -1,0 +1,109 @@
+/* Base reset */
+ {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Typography */
+body {
+    font-family: "Open Sans", sans-serif;
+    line-height: 1.7;
+    color: #222;
+    background-color: #fafafa;
+}
+
+h1, h2, h3 {
+    font-family: "Merriweather", serif;
+    font-weight: 700;
+    margin-bottom: 0.6em;
+}
+
+/* Layout helpers */
+.container {
+    width: 90%;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+/* Header */
+.site-header {
+    background: #1f2a36;
+    color: #fff;
+    padding: 2rem 0;
+}
+
+.site-title {
+    font-size: 2rem;
+}
+
+.site-tagline {
+    font-size: 1rem;
+    opacity: 0.85;
+}
+
+/* Navigation */
+.main-nav ul {
+    list-style: none;
+    display: flex;
+    gap: 1.5rem;
+    margin-top: 1rem;
+}
+
+.main-nav a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.main-nav a:hover {
+    text-decoration: underline;
+}
+
+/* Landing */
+.landing {
+    padding: 3rem 0;
+}
+
+.landing-grid {
+    display: grid;
+    grid-template-columns: 250px 1fr;
+    gap: 2rem;
+    align-items: center;
+}
+
+.profile-photo {
+    width: 250px;
+    border-radius: 4px;
+}
+
+/* Sections */
+.content-section {
+    padding: 3rem 0;
+}
+
+.alt-bg {
+    background: #f0f2f5;
+}
+
+.content-section ul,
+.content-section ol {
+    margin-left: 1.5rem;
+}
+
+/* Publications */
+.pub-list li {
+    margin-bottom: 1rem;
+}
+
+/* Footer */
+.site-footer {
+    background: #1f2a36;
+    color: #ccc;
+    padding: 1.5rem 0;
+    font-size: 0.9rem;
+}
+
+.site-footer a {
+    color: #ccc;
+}
