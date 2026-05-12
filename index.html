@@ -1,22 +1,14 @@
-#!/usr/bin/env python3
-# -*- coding: utf-8 -*-
-"""
-Created on Tue Feb  3 10:08:18 2026
-
-@author: aratoj87
-"""
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Your Name – Academic Website</title>
+    <title>József Arató – Academic Website</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <!-- Main stylesheet -->
     <link rel="stylesheet" href="css/style.css">
 
-    <!-- Google Fonts (optional, very WordPress-like) -->
+    <!-- Google Fonts -->
     <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@300;400;700&family=Open+Sans:wght@300;400;600&display=swap" rel="stylesheet">
 </head>
 <body>
@@ -35,7 +27,6 @@ Created on Tue Feb  3 10:08:18 2026
                 <li><a href="#teaching">Teaching</a></li>
                 <li><a href="#code">Code</a></li>
                 <li><a href="#contact">Contact</a></li>
-
             </ul>
         </nav>
     </div>
@@ -46,17 +37,16 @@ Created on Tue Feb  3 10:08:18 2026
     <!-- Landing / Intro -->
     <section class="landing">
         <div class="container landing-grid">
-            <img src="images/DSC_3152.JPG" alt="Profile photo" class="profile-photo">
+            <img src="images/DSC_3152.JPG" alt="Profile photo of József Arató" class="profile-photo">
             <div>
                 <h2>Welcome</h2>
                 <p>
                     I am a researcher in cognitive science. My work focuses on eye movements, visual learning and computational models.
-                    I am also interested in data science methods in cognitive science, especially in time-series analysis and Bayesian methods. 
+                    I am also interested in data science methods in cognitive science, especially in time-series analysis and Bayesian methods.
                     Therefore, I have been involved in various research projects from cognitive art history, to environmental psychology and birdsong evolution.
-                
                 </p>
                 <p>
-                    I am currently affiliated with the <strong>Budapest University of Technology and Economics</strong>, and have a lot of research links  to the <strong>University of Vienna</strong>.
+                    I am currently affiliated with the <strong>Budapest University of Technology and Economics</strong>, and have a lot of research links to the <strong>University of Vienna</strong>.
                 </p>
             </div>
         </div>
@@ -66,12 +56,12 @@ Created on Tue Feb  3 10:08:18 2026
     <section id="bio" class="content-section">
         <div class="container">
             <h2>Short Bio</h2>
-            <p><b>2026–</b> Assistant Professor, Department of Cognitive Science, Budapest University of Technology and Economics, Hungary</p>
-            <p><b>2019-2026</b> Senior Scientist, Vienna Cognitive Science Hub, University of Vienna, Austria</p>
-            <p><b>2012–2018</b>  PhD student, Vision Lab, Department of Cognitive Science, Central European University, Hungary/Austria</p>
-            <p><b>2014–2015</b> Visiting Research Fellow, Visual Cognition Lab, University of Fribourg, Switzerland</p>
-            <p><b>2010-2012</b> Cognitive Science MSc, Budapest University of Technology and Economics, Hungary</p>
-            <p><b>2006-2010</b> Biology BSc, Eötvös University Budapest, Hungary</p>
+            <div class="bio-entry"><b>2026–</b> Assistant Professor, Department of Cognitive Science, Budapest University of Technology and Economics, Hungary</div>
+            <div class="bio-entry"><b>2019–2026</b> Senior Scientist, Vienna Cognitive Science Hub, University of Vienna, Austria</div>
+            <div class="bio-entry"><b>2012–2018</b> PhD student, Vision Lab, Department of Cognitive Science, Central European University, Hungary/Austria</div>
+            <div class="bio-entry"><b>2014–2015</b> Visiting Research Fellow, Visual Cognition Lab, University of Fribourg, Switzerland</div>
+            <div class="bio-entry"><b>2010–2012</b> Cognitive Science MSc, Budapest University of Technology and Economics, Hungary</div>
+            <div class="bio-entry"><b>2006–2010</b> Biology BSc, Eötvös University Budapest, Hungary</div>
         </div>
     </section>
 
@@ -80,13 +70,10 @@ Created on Tue Feb  3 10:08:18 2026
         <div class="container">
             <h2>Research</h2>
             <ul>
-                <li> Currently, I use computer vision models and gamified human experiments to study the visual learning dynamics in complex visual environments. I am interested the extent to which low level perceptual representations learned by human experts resemble to those of computer vision models. </li>
-
-                <li>Eye movements in learning: My PhD focused on how visual statistical learning influences eye movements in a gaze contingent paradigm (Arato,Rothkopf &  Fiser, 2024). We found that while implicit learning can proceed even without any effect on eye movements, after sufficient learning or using explicit instruction a tight link emerges between eye movements and performance on a recognition test. 
-                            
-                <li> Time series modelling:  I use hidden Markov models to study human gaze dynamics in free viewing and to quantify scanpath similarity. I also use HMM-s to study dynamic functional connectivity using large scale fMRI datasets of neurodivergence. </li>
-                <li> Birdsong phylogenetics:  I study cross-species bird vocalization datasets to study the extent to which evolutionary history can explain their similarity. (Arato & Fitch, 2021) </li>
-
+                <li>Currently, I use computer vision models and gamified human experiments to study the visual learning dynamics in complex visual environments. I am interested in the extent to which low level perceptual representations learned by human experts resemble those of computer vision models.</li>
+                <li>Eye movements in learning: My PhD focused on how visual statistical learning influences eye movements in a gaze contingent paradigm (Arato, Rothkopf &amp; Fiser, 2024). We found that while implicit learning can proceed even without any effect on eye movements, after sufficient learning or using explicit instruction a tight link emerges between eye movements and performance on a recognition test.</li>
+                <li>Time series modelling: I use hidden Markov models to study human gaze dynamics in free viewing and to quantify scanpath similarity. I also use HMMs to study dynamic functional connectivity using large scale fMRI datasets of neurodivergence.</li>
+                <li>Birdsong phylogenetics: I study cross-species bird vocalization datasets to study the extent to which evolutionary history can explain their similarity. (Arato &amp; Fitch, 2021)</li>
             </ul>
         </div>
     </section>
@@ -95,111 +82,79 @@ Created on Tue Feb  3 10:08:18 2026
     <section id="publications" class="content-section">
         <div class="container">
             <h2>Publications</h2>
-                
-                 <li> <a href="files/publications.pdf" target="_blank">
-                  list of publications (PDF)
-                 </a></li>
-                
-                
-          
-                
-                
-                <li> <a href="https://scholar.google.com/citations?user=Jt8HCfYAAAAJ&hl=en&oi=ao"> Google Scholar</a> </li>
-                  
-                 
-                   
-                 
-                </li>
-            </ol>
+            <ul>
+                <li><a href="files/publications.pdf" target="_blank">List of publications (PDF)</a></li>
+                <li><a href="https://scholar.google.com/citations?user=Jt8HCfYAAAAJ&hl=en&oi=ao">Google Scholar</a></li>
+            </ul>
         </div>
     </section>
-    
-     <!-- Code -->
-     <section id="students" class="content-section">
-         <div class="container">
-             <h2>Students (co)supervised</h2>
-             <p> PhD Students  </p>
-                <li>  Xingyu Long,  Pupillary Dynamics and Ambient-Focal Oscillations in Aesthetic Perception </li>
 
-                
-               <p>
-                  Master Students  </p>  
-             <ul>
-                <li>  Jannis Bressgott,  Dynamic functional connectivity of the reward network in autism: a model comparison </li>
-                <li>  Nikita Podolin-Danner, Beyond mere presence: The role of social evaluation in working memory perfor-mance </li>
-                <li>  Anja Stojkovic,  Understanding Viewer Engagement with Art: A Study of Visual Attention Using Eye Tracking and Machine Learning</li>
-                <li>  Nicoló Filipucci,  Eye-Movement Similarity: Scanpath Analysis for Recognizing Learning Disorders. </li>
+    <!-- Students -->
+    <section id="students" class="content-section alt-bg">
+        <div class="container">
+            <h2>Students (co)supervised</h2>
+            <p><strong>PhD Students</strong></p>
+            <ul>
+                <li>Xingyu Long — Pupillary Dynamics and Ambient-Focal Oscillations in Aesthetic Perception</li>
+            </ul>
+            <p><strong>Master Students</strong></p>
+            <ul>
+                <li>Jannis Bressgott — Dynamic functional connectivity of the reward network in autism: a model comparison</li>
+                <li>Nikita Podolin-Danner — Beyond mere presence: The role of social evaluation in working memory performance</li>
+                <li>Anja Stojkovic — Understanding Viewer Engagement with Art: A Study of Visual Attention Using Eye Tracking and Machine Learning</li>
+                <li>Nicoló Filipucci — Eye-Movement Similarity: Scanpath Analysis for Recognizing Learning Disorders</li>
+            </ul>
+        </div>
+    </section>
 
-
-
-             </ul>
-         </div>
-     </section>
-
-    
-    
     <!-- Teaching -->
-    <section id="teaching" class="content-section alt-bg">
+    <section id="teaching" class="content-section">
         <div class="container">
             <h2>Teaching</h2>
             <ul>
-                <li>  Brain, Mind and AI,  Budapest University of Technology, Spring 2026</li>
-                <li>  BioDataScience in Python and R, Uni Wien Cognitive Biology Master, Fall 2023,2024,2025</li>
-                <li>  Bayesian Modeling in Python- TEWA 2- Uni Wien Psyhology Master, Spring 2023</li>
-                <li>  Scientific Computing in Python- TEWA 1- Uni Wien Psyhology Master, Spring 2021, Fall 2022, Spring 2024, Spring 2025</li>
-                <li>  Cognitive Modelling-Advanced Seminar- Uni Wien Psyhology Master, Fall 2020</li>
-                <li>  Artificial Intelligence, Milestone Institute, 2018 </li>
-                <li>  Cognitive Psychology, Milestone Institute, 2017 </li>
-                <li>  Cognitive Informatics in Human Vision- Cognitive Science MSc, Eotvos University Budapest, Fall 2017</li>
-
-
-                
+                <li>Brain, Mind and AI — Budapest University of Technology, Spring 2026</li>
+                <li>BioDataScience in Python and R — Uni Wien Cognitive Biology Master, Fall 2023, 2024, 2025</li>
+                <li>Bayesian Modeling in Python (TEWA 2) — Uni Wien Psychology Master, Spring 2023</li>
+                <li>Scientific Computing in Python (TEWA 1) — Uni Wien Psychology Master, Spring 2021, Fall 2022, Spring 2024, Spring 2025</li>
+                <li>Cognitive Modelling (Advanced Seminar) — Uni Wien Psychology Master, Fall 2020</li>
+                <li>Artificial Intelligence — Milestone Institute, 2018</li>
+                <li>Cognitive Psychology — Milestone Institute, 2017</li>
+                <li>Cognitive Informatics in Human Vision — Cognitive Science MSc, Eötvös University Budapest, Fall 2017</li>
             </ul>
         </div>
     </section>
 
     <!-- Code -->
-    <section id="code" class="content-section">
+    <section id="code" class="content-section alt-bg">
         <div class="container">
             <h2>Code</h2>
-            <p>
-                Selected code repositories:
-            </p>
+            <p>Selected code repositories:</p>
             <ul>
-                <li><a href="https://github.com/jozsarato/bayescogdat" > Bayesian cognitive science book Python translation
-
-                <li><a href="https://github.com/jozsarato/PyEyeSim"> Eye movement analysis package
-
-                <li><a href="https://github.com/jozsarato/PhyloBirdSong" > Birdsong phylogenetic analysis code for Arato & Fitch 2021
-              
-
+                <li><a href="https://github.com/jozsarato/bayescogdat">Bayesian cognitive science book — Python translation</a></li>
+                <li><a href="https://github.com/jozsarato/PyEyeSim">Eye movement analysis package</a></li>
+                <li><a href="https://github.com/jozsarato/PhyloBirdSong">Birdsong phylogenetic analysis code (Arato &amp; Fitch 2021)</a></li>
             </ul>
         </div>
     </section>
 
-  <section id="contact" class="content-section">
-      <div class="container">
-          <h2>Contact/social </h2>
-       
-          <ul>
-               <li> <a href="mailto:jozsef.arato@ttk.bme.hu"> e-mail</a>
-
-              <li><a href="https://bsky.app/profile/jozsarato.bsky.social" > Blue sky
-
-              <li><a href="https://www.linkedin.com/in/j%C3%B3zsef-arat%C3%B3-2b4764139/"> Linkedin
-
-            
-
-          </ul>
-      </div>
-  </section>
+    <!-- Contact -->
+    <section id="contact" class="content-section">
+        <div class="container">
+            <h2>Contact / Social</h2>
+            <ul>
+                <li><a href="mailto:jozsef.arato@ttk.bme.hu">Email</a></li>
+                <li><a href="https://bsky.app/profile/jozsarato.bsky.social">Bluesky</a></li>
+                <li><a href="https://www.linkedin.com/in/j%C3%B3zsef-arat%C3%B3-2b4764139/">LinkedIn</a></li>
+            </ul>
+        </div>
+    </section>
 
 </main>
 
 <footer class="site-footer">
     <div class="container">
         <p>
-            © 2026 Jozsef Arato ·
+            &copy; 2026 József Arató ·
             <a href="mailto:jozsef.arato@ttk.bme.hu">jozsef.arato@ttk.bme.hu</a>
         </p>
     </div>
