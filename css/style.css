@@ -45,6 +45,22 @@ a:hover {
     background: #1f2a36;
     color: #fff;
     padding: 2rem 0;
+    position: relative;
+    overflow: hidden;
+}
+
+/* Animated gaze scanpath behind the header */
+.gaze-canvas {
+    position: absolute;
+    inset: 0;
+    width: 100%;
+    height: 100%;
+    pointer-events: none;
+}
+
+.site-header .container {
+    position: relative;
+    z-index: 1;
 }
 
 .site-title {
