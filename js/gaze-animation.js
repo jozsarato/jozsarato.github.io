@@ -16,6 +16,10 @@
     const canvas = document.createElement('canvas');
     canvas.className = 'gaze-canvas';
     canvas.setAttribute('aria-hidden', 'true');
+    // inline styles so the layout does not depend on a (possibly cached) stylesheet
+    canvas.style.cssText = 'position:absolute;inset:0;width:100%;height:100%;pointer-events:none;';
+    if (getComputedStyle(header).position === 'static') header.style.position = 'relative';
+    header.style.overflow = 'hidden';
     header.prepend(canvas);
     const ctx = canvas.getContext('2d');
 
